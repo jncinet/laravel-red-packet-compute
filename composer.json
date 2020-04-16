@@ -10,5 +10,17 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {}
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Qihucms\\RedPacket\\Compute\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Qihucms\\RedPacket\\Compute\\RedPacketComputeServiceProvider"
+      ]
+    }
+  }
 }
