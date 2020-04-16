@@ -1,0 +1,14 @@
+{
+  "name": "jncinet/laravel-red-packet-compute",
+  "description": "Random red packet amount.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "张晔",
+      "email": "y@qilephp.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
