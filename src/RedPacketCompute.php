@@ -10,7 +10,7 @@ class RedPacketCompute
      * @param int|float $money 红包金额
      * @param int $amount 红包数量
      * @param int $n 红包平均金额的倍数
-     * @param int|float $min 最小金额
+     * @param int $min 最小金额
      * @return array
      */
     public function redPacketAmount($money, int $amount, int $n = 2, $min = 1)
@@ -20,7 +20,6 @@ class RedPacketCompute
         if (is_float($money)) {
             // 以分为单位取值
             $money = bcmul($money, 100);
-            $min = bcmul($min, 100);
             $isFloat = true;
         }
 
