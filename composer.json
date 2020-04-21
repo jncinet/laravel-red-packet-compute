@@ -13,13 +13,13 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "Qihucms\\RedPacket\\Compute\\": "src/"
+      "Qihucms\\RedPacketCompute\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Qihucms\\RedPacket\\Compute\\RedPacketComputeServiceProvider"
+        "Qihucms\\RedPacketCompute\\RedPacketComputeServiceProvider"
       ]
     }
   }

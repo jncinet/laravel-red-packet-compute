@@ -1,6 +1,6 @@
 <?php
 
-namespace Qihucms\RedPacket\Compute;
+namespace Qihucms\RedPacketCompute;
 
 class RedPacketCompute
 {
