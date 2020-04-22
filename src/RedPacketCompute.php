@@ -30,7 +30,7 @@ class RedPacketCompute
             // 预留最小金额，否则最后一个红包可能会空包
             $money -= $min;
             // 最多红包金额（红包平均值的N倍） = 红包总金额 / 剩余红包数 * N
-            $max = bcdiv($money, $amount, 2) * $n;
+            $max = bcdiv($money, $amount, 2);
             // 去掉小数位
             $max = bcmul($max, $n);
             // 因为上面的除法会忽略小数点，可能会出现0，所以最大值最低要等于最小红包金额
